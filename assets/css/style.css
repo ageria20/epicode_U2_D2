@@ -463,13 +463,16 @@ h1 + p {
     border-radius: 1rem;
     width: 50px;
     height: 50px;
+    padding: 0.8rem;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
   }
-  .upIcon img {
+  .upIcon svg {
     position: absolute;
+    padding: 1rem;
+    color: blue;
     inset: 0;
     margin: auto;
   }
@@ -479,13 +482,16 @@ h1 + p {
     border-radius: 1rem;
     width: 50px;
     height: 50px;
+    padding: 0.8rem;
     position: fixed;
     top: 60px;
     right: 0px;
     z-index: 1000;
   }
-  .calIcon img {
+  .calIcon svg {
     position: absolute;
+    padding: 1rem;
+    color: blue;
     inset: 0;
     margin: auto;
   }
@@ -493,16 +499,18 @@ h1 + p {
   .rollUpIcon {
     background-color: #b8b4b4;
     border-radius: 1rem;
-    color: red;
     width: 50px;
+    padding: 1rem;
     height: 50px;
     position: fixed;
     bottom: 0px;
     right: 0px;
     z-index: 1000;
   }
-  .rollUpIcon img {
+  .rollUpIcon svg {
     position: absolute;
+    color: crimson;
+    padding: 0.5rem;
     inset: 0;
     margin: auto;
   }
@@ -516,7 +524,7 @@ h1 + p {
     position: absolute;
     top: 0;
     right: 0;
-    opacity: 0.5;
+    opacity: 0.2;
     font-size: 6rem;
     margin: auto;
   }
