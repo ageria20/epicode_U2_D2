@@ -311,6 +311,7 @@ h1 + p {
     top: 0;
     right: 0;
     opacity: 0.5;
+    font-size: 6rem;
     margin: auto;
   }
 }
@@ -398,6 +399,7 @@ h1 + p {
     top: 0;
     right: 0;
     opacity: 0.5;
+    font-size: 6rem;
     margin: auto;
   }
 }
@@ -515,7 +517,7 @@ h1 + p {
     top: 0;
     right: 0;
     opacity: 0.5;
-    font-size: 1.5em;
+    font-size: 6rem;
     margin: auto;
   }
 }
