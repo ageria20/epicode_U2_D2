@@ -387,6 +387,19 @@ h1 + p {
     inset: 0;
     margin: auto;
   }
+
+  .tagArticle {
+    position: relative;
+    border: none;
+  }
+
+  .fa-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -488,6 +501,19 @@ h1 + p {
   .rollUpIcon img {
     position: absolute;
     inset: 0;
+    margin: auto;
+  }
+
+  .tagArticle {
+    position: relative;
+    border: none;
+  }
+
+  .fa-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
     margin: auto;
   }
 }
