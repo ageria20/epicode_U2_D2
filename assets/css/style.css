@@ -301,7 +301,7 @@ h1 + p {
     margin: auto;
   }
 
-  .tagArticle {
+  aside > div {
     position: relative;
     border: none;
   }
@@ -388,7 +388,7 @@ h1 + p {
     margin: auto;
   }
 
-  .tagArticle {
+  aside > div {
     position: relative;
     border: none;
   }
@@ -491,6 +491,7 @@ h1 + p {
   .rollUpIcon {
     background-color: #b8b4b4;
     border-radius: 1rem;
+    color: red;
     width: 50px;
     height: 50px;
     position: fixed;
@@ -504,7 +505,7 @@ h1 + p {
     margin: auto;
   }
 
-  .tagArticle {
+  aside > div {
     position: relative;
     border: none;
   }
@@ -514,6 +515,7 @@ h1 + p {
     top: 0;
     right: 0;
     opacity: 0.5;
+    font-size: 1.5em;
     margin: auto;
   }
 }
