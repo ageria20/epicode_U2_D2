@@ -302,12 +302,16 @@ h1 + p {
   }
 
   .tagArticle {
+    position: relative;
+    border: none;
   }
 
   .fa-tag {
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0.5;
+    margin: auto;
   }
 }
 
